@@ -16,6 +16,7 @@ SUBLEVEL = 0
 # o  use make's built-in rules and variables
 #    (this increases performance and avoids hard-to-debug behaviour);
 # o  print "Entering directory ...";
+#shenqiao
 MAKEFLAGS += -rR --no-print-directory
 
 # Avoid funny character set dependencies
